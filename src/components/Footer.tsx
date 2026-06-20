@@ -118,8 +118,10 @@ export function Footer() {
              ©{new Date().getFullYear()} Ember Wellness Pvt. Ltd. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <a href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</a>
-              <a href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</a>
+              {/* <a href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</a>
+              <a href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</a> */}
+              <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
+              <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-primary transition-colors">Trademark</a>
               <a href="#" className="hover:text-primary transition-colors">Patent</a>
           </div>
