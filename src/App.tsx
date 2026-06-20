@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Order from "./pages/Order";
 import NotFound from "./pages/NotFound";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -18,8 +19,11 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/order" element={<Order />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
+
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
