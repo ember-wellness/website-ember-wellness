@@ -115,7 +115,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border gap-4">
           <p className="text-sm text-muted-foreground">
-             {new Date().getFullYear()} EMBER
+             ©{new Date().getFullYear()} Ember Wellness Pvt. Ltd. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
