@@ -62,7 +62,7 @@ export default {
       },
       fontFamily: {
         display: ["Montserrat", "sans-serif"],
-        body: ["Inter", "sans-serif"],
+        body: ["Poppins", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

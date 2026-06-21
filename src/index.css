@@ -5,24 +5,24 @@
 @layer base {
   :root {
     --background: 0 0% 98%;
-    --foreground: 180 10% 15%;
+    --foreground: 180 8% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 180 10% 15%;
+    --card-foreground: 180 8% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 180 10% 15%;
+    --popover-foreground: 180 8% 12%;
 
-    --primary: 168 76% 42%;
+    --primary: 142 44% 30%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 168 30% 94%;
-    --secondary-foreground: 168 76% 35%;
+    --secondary: 70 55% 55%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 180 10% 94%;
     --muted-foreground: 180 10% 45%;
 
-    --accent: 168 76% 42%;
+    --accent: 22 85% 52%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -30,31 +30,31 @@
 
     --border: 180 10% 88%;
     --input: 180 10% 88%;
-    --ring: 168 76% 42%;
+    --ring: 142 44% 30%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens - EMBER brand */
-    --ember: 168 76% 42%;
-    --ember-light: 168 70% 55%;
-    --ember-dark: 168 80% 32%;
+    --ember: 142 44% 30%;
+    --ember-light: 142 44% 43%;
+    --ember-dark: 142 44% 21%;
     --cream: 40 30% 97%;
-    --charcoal: 180 10% 15%;
-    --charcoal-light: 180 10% 25%;
+    --charcoal: 180 8% 12%;
+    --charcoal-light: 180 8% 20%;
 
     /* Gradients */
-    --gradient-ember: linear-gradient(135deg, hsl(168 76% 42%), hsl(168 70% 55%));
-    --gradient-light: linear-gradient(180deg, hsl(0 0% 100%), hsl(168 30% 97%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(168 30% 98%));
+    --gradient-ember: linear-gradient(135deg, hsl(142 44% 30%), hsl(142 44% 43%));
+    --gradient-light: linear-gradient(180deg, hsl(0 0% 100%), hsl(142 20% 97%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(142 20% 98%));
 
     /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(168 76% 42% / 0.15);
-    --shadow-glow: 0 0 40px hsl(168 76% 42% / 0.2);
-    --shadow-card: 0 8px 32px -8px hsl(180 10% 15% / 0.1);
+    --shadow-soft: 0 4px 20px -4px hsl(142 44% 30% / 0.15);
+    --shadow-glow: 0 0 40px hsl(142 44% 30% / 0.2);
+    --shadow-card: 0 8px 32px -8px hsl(180 8% 12% / 0.1);
 
     /* Typography */
     --font-display: 'Montserrat', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-body: 'Poppins', sans-serif;
 
     /* Transitions */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,26 +62,26 @@
   }
 
   .dark {
-    --background: 180 10% 8%;
+    --background: 180 8% 8%;
     --foreground: 0 0% 98%;
 
-    --card: 180 10% 12%;
+    --card: 180 8% 12%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 180 10% 12%;
+    --popover: 180 8% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 168 76% 48%;
-    --primary-foreground: 180 10% 8%;
+    --primary: 142 44% 43%;
+    --primary-foreground: 180 8% 8%;
 
     --secondary: 180 10% 18%;
-    --secondary-foreground: 168 70% 55%;
+    --secondary-foreground: 70 55% 65%;
 
     --muted: 180 10% 20%;
     --muted-foreground: 180 10% 60%;
 
-    --accent: 168 76% 48%;
-    --accent-foreground: 180 10% 8%;
+    --accent: 22 85% 60%;
+    --accent-foreground: 180 8% 8%;
 
     --border: 180 10% 22%;
     --input: 180 10% 22%;
